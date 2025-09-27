@@ -8,10 +8,25 @@
       "Bash(git remote set-url:*)",
       "Bash(pkill:*)",
       "Bash(npm install:*)",
-      "Bash(pnpm add:*)"
+      "Bash(pnpm add:*)",
+      "mcp__supabase__execute_sql",
+      "mcp__supabase__list_edge_functions",
+      "mcp__supabase__deploy_edge_function",
+      "WebSearch",
+      "mcp__supabase__apply_migration",
+      "Bash(mkdir:*)",
+      "Bash(chmod:*)",
+      "mcp__supabase__search_docs",
+      "WebFetch(domain:supabase.com)",
+      "Bash(find:*)",
+      "Bash(deno test:*)"
     ],
     "deny": [],
     "ask": [],
     "defaultMode": "acceptEdits"
-  }
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "supabase"
+  ]
 }
